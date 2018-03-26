@@ -19,8 +19,8 @@ Prerequisites
 
 Installing
 
-  Download Thinger.io
-    Incluide into Arduino library
+  Download Thinger.ip
+    Incluide into Arduino library                                                                                        
       This will allow for information to be transfered to an online data base showing numerical values for the forces applied
         You can then calibrate your sensors to be within error
         
