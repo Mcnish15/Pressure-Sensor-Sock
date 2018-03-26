@@ -17,7 +17,7 @@ Prerequisites
 
 
 Installing
-A step by step series of examples that tell you have to get a development env running
+
   Download Thinger.io
     Incluide into Arduino library
       This will allow for information to be transfered to an online data base showing numerical values for the forces applied
@@ -36,9 +36,6 @@ Final Code
 Built With
   Arduino UNO
   Arduino 1.8.5
-
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
 
 Authors
 Mitchell McNish
