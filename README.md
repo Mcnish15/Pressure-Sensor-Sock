@@ -63,11 +63,11 @@ Step 8
   -No additonal libraries needed 
 
 ## Data demo
-  -Arduino Serial Monitor
+  -Arduino Serial Plotter
   [Serial Plotter Data example.pdf](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913168/Serial.Plotter.Data.example.pdf)
   
   
-  Serial Plotter
+  Serial Monitor
 
 ## Final Code
 
