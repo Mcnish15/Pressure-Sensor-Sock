@@ -22,7 +22,7 @@ Step one
   
   
 Step 2 
-  - Test sensors on Arduino Serial Monitor and/or Serial Plotter
+  -Test sensors on Arduino Serial Monitor and/or Serial Plotter
   
   
 Step 3
