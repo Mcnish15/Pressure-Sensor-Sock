@@ -2,17 +2,17 @@
   The Pressure-Sensor sock will be used to help with identifying pressure distribution imbalances when preforming a squat. This will hopefully eliminate some knee and/or back issues that can be identified by improper weight distribution. This will be done with the use of 3 force-sensors distributed to the approxiamte points of weight placement along with a RGB. This color scheme will play a role is the sens e that green will be in +/- 10% across the sensors, yellow will be +/-10% to +/- 25% and red being else. 
 
 ## Hardware Components
-  -1x Arduino UNO (From Univeristy of regina bookstore, or can be found on SparkFun)
+  -1x Arduino UNO (From Univeristy of regina bookstore, or can be found on SparkFun https://www.sparkfun.com/products/11021)
   
-  -3x Force resistant sensors  (acquired form SparkFun)
+  -3x Force resistant sensors  (acquired form SparkFun https://www.sparkfun.com/products/9375)
   
-  -2x Breadboard (acquired form SparkFun)
+  -2x Breadboard (acquired form SparkFun https://www.sparkfun.com/products/12615)
   
-  -3x 560 Ohm resistors (acquired form SparkFun)
+  -3x 560 Ohm resistors (acquired form SparkFun https://www.sparkfun.com https://www.sparkfun.com/search/results?term=+resistors)
   
-  -3x 1k Ohm resistors (acquired form SparkFun)
+  -3x 1k Ohm resistors (acquired form SparkFun https://www.sparkfun.com https://www.sparkfun.com/search/results?term=+resistors)
   
-  -1x Solder Iron with 25V recommended (Local Canadian Tire)
+  -1x Solder Iron with 25V recommended (Local Canadian Tire http://www.canadiantire.ca/en/pdp/mastercraft-solder-station-0586301p.html#srp is what I used)
   
 ## Project Schematic 
 
@@ -34,7 +34,7 @@ Step 3
   
   
 Step 4
-  -Wire RBG on Digital pins 8, 9, 10 wiht 1K Ohm resistors. 
+  -Wire RBG on Digital pins 8, 9, 10 with 1K Ohm resistors. 
   
   
 Step 5
@@ -71,7 +71,7 @@ Step 8
   
   Serial Monitor [Serial Monitor Data example .pdf](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913173/Serial.Monitor.Data.example.pdf)
 
-## Final Code
+## Final Code  [Github Code.docx](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913190/Github.Code.docx)
 
 ## Built With
   Arduino UNO
