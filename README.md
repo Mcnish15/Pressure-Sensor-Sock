@@ -16,8 +16,9 @@ Project Schematic
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+Build Guide
 
-Step one 
+Step 1 
   -Connect 3 sensors in a parallel series with 560 Ohm resistors  and connect to Analog pins 0, 1  and 2.
   
   
