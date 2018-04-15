@@ -71,9 +71,11 @@ Step 8
   Arduino UNO
   Arduino 1.8.5
 
-#Authors
+# Authors
+
 Mitchell McNish
 
 
-#Acknowledgments
+# Acknowledgments
+
 Thanks you to Juliette van der Pas who has a similar idea allowing me to branch off for my Computer Science 207 class project! This can be found at https://www.hackster.io/Juliette/a-diy-smart-insole-to-check-your-pressure-distribution-a5ceae
