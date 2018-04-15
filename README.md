@@ -2,12 +2,17 @@
   The Pressure-Sensor sock will be used to help with identifying pressure distribution imbalances when preforming a squat. This will hopefully eliminate some knee and/or back issues that can be identified by improper weight distribution. This will be done with the use of 3 force-sensors distributed to the approxiamte points of weight placement along with a RGB. This color scheme will play a role is the sens e that green will be in +/- 10% across the sensors, yellow will be +/-10% to +/- 25% and red being else. 
 
 ## Materials
-  1x Arduino UNO
-  3x Force resistant sensors  
-  2x Breadboard
-  1x Solder Iron
-  3x 560 Ohm resistors
-  3x 1k Ohm resistors
+  -1x Arduino UNO
+  
+  -3x Force resistant sensors  
+  
+  -2x Breadboard
+  
+  -1x Solder Iron
+  
+  -3x 560 Ohm resistors
+  
+  -3x 1k Ohm resistors
   
 ## Project Schematic 
 
