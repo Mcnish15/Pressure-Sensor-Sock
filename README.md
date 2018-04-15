@@ -12,7 +12,7 @@
   
   -3x 1k Ohm resistors (acquired form SparkFun https://www.sparkfun.com https://www.sparkfun.com/search/results?term=+resistors)
   
-  -1x Solder Iron with 25V recommended (Local Canadian Tire http://www.canadiantire.ca/en/pdp/mastercraft-solder-station-0586301p.html#srp is what I used)
+  -1x Solder Iron (Local Canadian Tire http://www.canadiantire.ca/en/pdp/mastercraft-solder-station-0586301p.html#srp is what I used)
   
 ## Project Schematic 
 
