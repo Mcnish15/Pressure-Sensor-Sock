@@ -14,6 +14,8 @@
   
   -1x Solder Iron (Local Canadian Tire http://www.canadiantire.ca/en/pdp/mastercraft-solder-station-0586301p.html#srp is what I used)
   
+  -Open builds Wire Cable (http://openbuildspartstore.com/wire-cable-by-the-foot/)
+  
 ## Project Schematic 
 
 [schematic for gothub.pdf](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913147/schematic.for.gothub.pdf)
