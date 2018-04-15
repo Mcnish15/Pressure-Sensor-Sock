@@ -63,7 +63,11 @@ Step 8
   -No additonal libraries needed 
 
 ## Data demo
-  -Display  sensot voltge on Arduino Serial Monitor and Serial Plotter
+  -Arduino Serial Monitor
+  [Serial Plotter Data example.pdf](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913168/Serial.Plotter.Data.example.pdf)
+  
+  
+  Serial Plotter
 
 ## Final Code
 
