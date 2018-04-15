@@ -15,22 +15,39 @@ Project Schematic
 
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+
 Step one 
   -Connect 3 sensors in a parallel series with 560 Ohm resistors  and connect to Analog pins 0, 1  and 2.
+  
+  
 Step 2 
   - Test sensors on Arduino Serial Monitor and/or Serial Plotter
+  
+  
 Step 3
   -resistor selection can be changed if your are wanted to work will smaller or larger voltage values 
+  
+  
 Step 4
   - Wire RBG on Digital pins 8, 9, 10 wiht 1K Ohm resistors. 
+  
+  
 Step 5
   - Test RBG with setColor to insure RGB is grounded properly 
+  
+  
 Step 6
   -Decide on parameters you are wanting to use for weight distribution calibration. I used 0-10% the RGB will show green, 10-25% the RGB will show yellow, and else will show red. This can be adjusted within the else if statements throguhout. 
+  
+  
 Step 7
   -Sodler sensors onto wire once calibrated
+  
+  
 Step 8 
   -place the 3 sensors at the 3 main pressure points on your feet. 
+  
 
 Prerequisites
   -Sodlering experience
