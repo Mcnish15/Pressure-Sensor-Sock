@@ -30,11 +30,11 @@ Step 3
   
   
 Step 4
-  - Wire RBG on Digital pins 8, 9, 10 wiht 1K Ohm resistors. 
+  -Wire RBG on Digital pins 8, 9, 10 wiht 1K Ohm resistors. 
   
   
 Step 5
-  - Test RBG with setColor to insure RGB is grounded properly 
+  -Test RBG with setColor to insure RGB is grounded properly 
   
   
 Step 6
