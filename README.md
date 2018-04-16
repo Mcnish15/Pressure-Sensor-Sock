@@ -71,7 +71,9 @@ Step 8
   [Serial Plotter Data example.pdf](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913168/Serial.Plotter.Data.example.pdf)
   
   
-  Serial Monitor [Serial Monitor Data example .pdf](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913173/Serial.Monitor.Data.example.pdf)
+  Serial Monitor
+  ![screenshot 45](https://user-images.githubusercontent.com/37302592/38839270-1adef986-4197-11e8-9a4f-954f8e79687d.png)
+ 
 
 ## Final Code  [Github Code.docx](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913190/Github.Code.docx)
 
