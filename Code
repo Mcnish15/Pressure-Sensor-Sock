@@ -53,12 +53,12 @@ void loop() {
 
     
 //   incorporate if else statements to allow for calibration of proper colour distinction
-//Set 0-10% weight distribution witht he use of abs() which is abvsolute value
+//Set 0-10% weight distribution witht he use of abs() which is absolute value
    if (abs(analogRead(FSR0) - analogRead(FSR1)) <= (analogRead(FSR0)/100)*10 && abs(analogRead(FSR0) - analogRead(FSR2) <= (analogRead(FSR0)/100)*10 && (abs(analogRead(FSR0) - analogRead(FSR1) > 0) && abs(analogRead(FSR0) - analogRead(FSR2) > 0))))
     {
     setColor (0, 255, 0);//green
     }
-    //set 10-25% weight distribution with the use of abs()_which is absolute value
+    //set 10-25% weight distribution with the use of abs() which is absolute value
     else if  (abs(analogRead(FSR0) - analogRead(FSR1)) <= ((analogRead(FSR0)/100)* 25) && abs(analogRead(FSR0) - analogRead(FSR2)) <= ((analogRead(FSR0)/100) * 25) && abs(analogRead(FSR0) - analogRead(FSR1)) >  ((analogRead(FSR0)/100)*10) && abs(analogRead(FSR0) - analogRead(FSR2)) >  ((analogRead(FSR0)/100)*10))
       {
       setColor (255,255,0);//yellow
