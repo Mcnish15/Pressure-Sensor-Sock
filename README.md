@@ -72,7 +72,7 @@ Step 8
   
   
   Serial Monitor
-  ![screenshot 45](https://user-images.githubusercontent.com/37302592/38839270-1adef986-4197-11e8-9a4f-954f8e79687d.png)
+![screenshot 46](https://user-images.githubusercontent.com/37302592/38839304-3aac3d78-4197-11e8-849d-fc927b65f1be.png)
  
 
 ## Final Code  [Github Code.docx](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913190/Github.Code.docx)
