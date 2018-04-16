@@ -1,0 +1,75 @@
+ // Set sensors to assigned Anolog Inputs           
+const int FSR2 = A2;                
+const int FSR1 = A1;
+const int FSR0 = A0;
+ 
+// set red, gree, and blue pins for RBG and their corresponding Digital Outputs
+const int redPin = 10;
+const int greenPin = 9;
+const int bluePin = 8;
+ 
+void setup() {
+  // initialize the serial communications:
+  Serial.begin(9600);
+   //assign digitals as output
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT); 
+
+}
+// set color for RGB
+void setColor(int red, int green, int blue)
+{
+  #ifdef COMMON_ANODE
+    red = 255 - red;
+    green = 255 - green;
+    blue = 255 - blue;
+  #endif
+  analogWrite(redPin, red); //red
+  analogWrite(greenPin, green); //green
+  analogWrite(bluePin, blue); //blue
+}
+ 
+void loop() {
+  // print the sensor values On Serial Monitor and Serial Plotter
+ 
+  Serial.print("\t");// add spacing 
+  Serial.print(analogRead(FSR0)); // Print Sensor on Analog 0
+  // print a tab between values:
+ 
+  // print a tab between values:
+  Serial.print ("\t");// add spacing 
+  Serial.print(analogRead(FSR1));// Print Sensor on Analog 1
+   // print a tab between values:
+ 
+  Serial.print ("\t");// add spacing 
+  Serial.print(analogRead(FSR2));// Print Sensor on Analog 2
+  //Print a tab between values:
+    Serial.print("\t");
+ 
+  
+ 
+   Serial.println();// continue to next line 
+
+    
+//   incorporate if else statements to allow for calibration of proper colour distinction
+//Set 0-10% weight distribution witht he use of abs() which is abvsolute value
+   if (abs(analogRead(FSR0) - analogRead(FSR1)) <= (analogRead(FSR0)/100)*10 && abs(analogRead(FSR0) - analogRead(FSR2) <= (analogRead(FSR0)/100)*10 && (abs(analogRead(FSR0) - analogRead(FSR1) > 0) && abs(analogRead(FSR0) - analogRead(FSR2) > 0))))
+    {
+    setColor (0, 255, 0);//green
+    }
+    //set 10-25% weight distribution with the use of abs()_which is absolute value
+    else if  (abs(analogRead(FSR0) - analogRead(FSR1)) <= ((analogRead(FSR0)/100)* 25) && abs(analogRead(FSR0) - analogRead(FSR2)) <= ((analogRead(FSR0)/100) * 25) && abs(analogRead(FSR0) - analogRead(FSR1)) >  ((analogRead(FSR0)/100)*10) && abs(analogRead(FSR0) - analogRead(FSR2)) >  ((analogRead(FSR0)/100)*10))
+      {
+      setColor (255,255,0);//yellow
+      }
+      else 
+      {
+        setColor (255,0,0);//red
+      }
+     
+    delay(100); //delay before next reading;
+  }
+
+
+  
