@@ -18,7 +18,7 @@
   
 ## Project Schematic 
 
-[schematic for gothub.pdf](https://github.com/Mcnish15/Pressure-Sensor-Sock/files/1913147/schematic.for.gothub.pdf)
+![screenshot 48](https://user-images.githubusercontent.com/37302592/38839404-a8c87524-4197-11e8-9155-c4a3f6615a65.png)
 
 
 
